@@ -1,0 +1,27 @@
+
+
+body{
+  background-image:url(chocolate-chip-cookies-23196-1.jpeg);background-size: cover;
+}
+h2, p{
+  color: red;
+  text-align: center;
+  border: 5px solid purple;
+  cursor: pointer;
+  
+}
+
+p{
+  color: green;
+  line-height: 25px;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+div{
+ border: 5px solid blue;
+ display: inline-block;
+ padding: 10px;
+}
+

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SM ENGLISH COURSES</title>
+    <style>
+        div{
+            display: flex;
+            align-items: center;
+            background-color: rgba(252, 192, 200, 0.589);
+            flex-direction: row;
+            font-family: Arial, Helvetica, sans-serif;
+            justify-self:space-between;
+        }
+        button{
+         
+            vertical-align: middle;
+           box-shadow: inset 1px 2px 3px rgba( 0, 0 , 0, 0.13);
+           border: none;
+           margin-right: 10px;
+           padding-top: 8px;
+           padding-bottom: 8px;
+           padding-right: 16px;
+           padding-left: 16px;
+           background-color: rgb(236, 234, 234);
+           cursor: pointer;
+           border-radius: 50px;
+           animation: button 3s infinite;
+        }
+        @keyframes button{
+            from{background-color: rgb(247, 35, 148)};
+            to{background-color: white;}
+
+            }
+            }
+        button:hover{
+            background-color: lightblue;
+        }
+        button:active{
+            color: white;
+        }
+        h1{
+            width: 350PX;
+            line-height: 50px;
+
+        }
+        .do{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            }
+        .du{
+            margin-left: 500px;
+        }
+        .header{
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+            border-bottom-color: rgb(228, 228, 228);
+        }
+        .txtanim{
+            color: green;
+            overflow: hidden;
+            border-right: 15em solid orange;
+            white-space: nowrap;
+            animation: typing 1s forwards;
+        }
+        @keyframes typing {
+            from {width: 0;}
+            to { width: 100%;}
+        }
+        .autochange{
+            margin-left: 30px;
+            margin-top: 0;
+            color: green;
+            text-shadow: 0 1px 0;
+            font-size: 40px;
+
+        }
+        span::after{
+            content: 'FAYDALANIN';
+            animation: animate 3s infinite;
+        }
+        @keyframes animate{
+            25%{content: 'FAYDALANIN';}
+            50%{content: 'ÖYRƏNİN';}
+            75%{content: 'DANIŞIN';}
+            100%{content: 'ƏYLƏNİN';}
+        }    
+        </style>
+</head>
+<body 
+style="background:linear-gradient(to left bottom, lightblue,lightpink,lightblue );">
+    <Div class="header" style="position: fixed; background-color: rgb(255, 193, 203);">
+        <div >
+            <img style="height: 80px; display: inline-block;" src="Images/SM (1).png" alt="logo">
+            </div>
+            <button>Kurslarımız haqqında</button>
+            
+            <button>Siniflər</button>
+            <button>Dərs cədvəli</button>
+            <button>Materiallar</button>
+            <button>Əlaqə</button>
+            <div class="do">
+            <button class="du" >Daxil ol!</button>
+            <button ">Üzv ol!</button>
+        </div>
+    </Div>
+    <div >
+        <h1  style="margin-left: 30px; font-size: 50px; line-height: 60px;" >Onlayn <strong> İNGİLİS DİLİ </strong> kursumuza XOŞ GƏLMİŞSİNİZ!</h1>
+       <img style="width: 800px; height: 500pxs; margin-left: 200px;margin-top: 50px; margin-bottom: 0;" src="Images/esasimg.png" alt="" >
+    </div>
+    <div>
+        <h2 class="autochange">Kursumuza qoşulun <span></span>. </h2> 
+    </div>
+    <div style="margin-left: 15px;">
+        <img style="width: 80px;" src="Images/clock.png" alt="">
+        <p> 1saat 30 dəqiqə dərs..</p>
+    </div>
+    <div style="margin-left: 30px;">
+        <img style="width:50px;"  src="Images/pupils.png" alt="">
+        <p>Qruplarda şagird sayı 6-dan nəfərdən çox olmayaraq..</p>
+    </div>
+    <div style="margin-left: 30px;">
+        <img style="width:50px" src="Images/teacher.png" alt="">
+        <p>Təcrübəli və peşəkar müəllimlərimizlə birgə öyrənin! </p>
+    </div>
+
+    <p class="txtanim" style="font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 100px;
+    text-align: center;
+    ">Achieve your goals by learning English with SM COURSES</p>
+    <p>Enter your  suggestions and recommendations here!</p>
+    <textarea name="" id="" cols="50" rows="8">Type your message here</textarea>
+
+    <script src="java.js"></script>
+</body>
+</html>
